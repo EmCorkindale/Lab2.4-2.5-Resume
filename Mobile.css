@@ -1,0 +1,40 @@
+.logo {
+  display: inline-block;
+  color: white;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+.header {
+  background-color: black;
+  box-shadow: 1px 1px 5px 0px var(--gray);
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: var(--black);
+  overflow: hidden;
+}
+.menu a {
+  display: block;
+  padding: 30px;
+  color: var(--white);
+}
+.menu a:hover {
+  background-color: var(--gray);
+}
+.nav {
+  max-height: 0;
+  transition: max-height 0.5s ease-out;
+}
+
+body {
+  background-color: rgb(137, 211, 245);
+  background-image: none;
+}
