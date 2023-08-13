@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css">
     <link rel="stylesheet" media="all and (max-width: 480px)" href="Mobile.css">
+    <link rel="stylesheet" media="all and (min-width: 480px)" href="Desktop.css">
+    <script src="index.js"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,400&display=swap');
-      </style>
+    </style>
     <title>Emily Corkindale</title>
 </head>
+
 <body>
-    <header class="header">
-        <a href="#" class="logo">EC</a>
-    <input class="side-menu" type="checkbox" id="side-menu"/>
-        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
     <div class="nav">
-        <div class="grower"></div>
-        <div class="menu"></div>
-        <div><a href="#">Home</a></div>
-        <div><a href="#">Ngā Pūkenga Matua / Key Skills</div>
-        <div><a href="#">Kuranga / Education</div>
-        <div><a href="#">Ngā Mahi kua Mahia / Work Experience</a></div>
+        <div class="content">
+            <img id="menu-button" src="menu.svg" />
+        </div>
+        <div id="menu">
+            <a href="#" class="logo">EC</a>
+            <a href="#">Ngā Pūkenga Matua / Key Skills</a>
+            <a href="#">Kuranga / Education</a>
+            <a href="#">Ngā Mahi kua Mahia / Work Experience</a>
+        </div>
     </div>
-    </header>
     <div class="main">
-    <div><h1>Emily Corkindale</h1></div>
-    <div><p>With 5+years in education, I have gained solid experience in planning, collaboration and communication.
-        Currently studying an AUT accredited Certificate in Software Engineering, gaining practical skills to design and implement software solutions.
-        Looking to begin my career as a developer, I am eager to land a junior role. 
-        I can bring attention to detail and problem-solving skills to your team along with the ability to understand end-user needs.</p></div>
+        <div>
+            <h1>Emily Corkindale</h1>
+        </div>
+        <div>
+            <p>With 5+years in education, I have gained solid experience in planning, collaboration and communication.
+                Currently studying an AUT accredited Certificate in Software Engineering, gaining practical skills to
+                design and implement software solutions.
+                Looking to begin my career as a developer, I am eager to land a junior role.
+                I can bring attention to detail and problem-solving skills to your team along with the ability to
+                understand end-user needs.</p>
+        </div>
     </div>
     <div class="links">
         <div class="grower"></div>
         <div><a href="#" class="discord"><img src="discord.svg"></a></div>
-        <div><a href="https://www.linkedin.com/in/emily-corkindale-29b515233/" class="linkedIn"><img src="linkedin.svg"></div>
+        <div><a href="https://www.linkedin.com/in/emily-corkindale-29b515233/" class="linkedIn"><img src="linkedin.svg">
+        </div>
         <div><a href="#" class="email"><img src="envelope-solid.svg"></div>
         <div><a href="#" class="github"><img src="github (1).svg"></a></div>
     </div>
 </body>
+
 </html>

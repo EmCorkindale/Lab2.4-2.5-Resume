@@ -1,9 +1,48 @@
-.menu { 
-    display: none; 
+.menu {
+  display: none;
 }
-.side-menu {
-    display: none;
+.logo {
+  display: none;
 }
-.hamb {
-    display: none;
+.nav {
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  height: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 700px;
+  padding-top: 0px;
+  background-color: rgba(171, 193, 207, 0);
+  color: white;
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+.grower {
+  flex-grow: 1;
+}
+.nav a:visited, a:active {
+  text-decoration: none;
+  color: black;
+}
+#menu-button {
+  display: none;
+}
+.main p {
+  max-width: 500px;
+}
+.links div {
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  display: flex;
+  margin-left: 50%;
+  margin-right: 50%;
+  min-width: 50px;
+  align-items: center;
+ 
+}
+.links img {
+  width: 24px;
 }
