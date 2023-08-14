@@ -32,17 +32,23 @@
 .main p {
   max-width: 500px;
 }
-.links div {
-  padding: 10px;
+.links {
+  padding: 100px;
   flex-wrap: wrap;
   flex-direction: row;
   display: flex;
   margin-left: 50%;
   margin-right: 50%;
-  min-width: 50px;
+  min-width: 500px;
   align-items: center;
+  justify-content: space-between;
+  
  
 }
+/* .links a {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
 .links img {
   width: 24px;
 }
